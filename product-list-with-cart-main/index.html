@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Prodcut List With Cart</title>
+</head>
+<body>
+    <div class="main-content" id="container-div">
+        <h2 class="Dessert-header">Dessert</h2>
+        <div class="product-list" id="sub-container-div">
+          <!-- Items will go here -->
+        </div>
+      </div>
+      <div class="Cart">
+        <div class="Cart-purchase">
+          <h3>Your Cart <span id="placed-items">0</span></h3>
+          <div class="title-img">
+            <img src="assets/images/illustration-empty-cart.svg" alt="empty-cart" id="cart-img">
+            <ul id="cart-items" class="item-list"></ul>
+          <p class="item-description">Your add item will appear here</p>
+          <span id="cart-total">00.00</span>
+          <button class="checkout-order">Confirm order</button>
+          </div>
+        </div>
+        <div class="checkout-receipt hide">
+          <div class="checkout-titles">
+            <img src="assets/images/icon-order-confirmed.svg" alt="order-confirmed">
+          <h4>Order confirmed</h4>
+          <p>we hope you enjoy your food</p>
+          </div>
+          <div class="add-item">
+            <!-- add items to be place here -->
+          </div>
+          <button id="new-order">start new order</button>
+        </div>
+      </div>
+<script type="module" src="JS/main.js"></script>
+</body>
+</html>
